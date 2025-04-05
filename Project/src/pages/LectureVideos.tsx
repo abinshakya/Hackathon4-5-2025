@@ -12,7 +12,7 @@ const lectureVideos = [
     duration: '1:15:30',
     date: '2023-09-15',
     thumbnail: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbXB1dGVyJTIwc2NpZW5jZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Replace with actual video URLs in production
+    url: 'https://www.youtube.com/watch?v=EdB9ouUWI2A', // Replace with actual video URLs in production
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const lectureVideos = [
     duration: '55:20',
     date: '2023-09-14',
     thumbnail: 'https://images.unsplash.com/photo-1612550761236-e813928f7271?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbm9taWNzfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    url: 'https://www.youtube.com/watch?v=EdB9ouUWI2A',
   },
   {
     id: 3,
