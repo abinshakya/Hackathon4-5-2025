@@ -6,19 +6,19 @@ import { Search, MapPin, User, Clock, X } from 'lucide-react';
 const classroomsData = [
   {
     id: 101,
-    name: "Room 101",
-    building: "Science Building",
+    name: "Rara",
+    building: "Nepal block",
     floor: 1,
     capacity: 30,
     isOccupied: true,
-    currentClass: "Introduction to Biology",
+    currentClass: "Information Systems",
     timeRemaining: 45, // minutes
-    professor: "Dr. Maria Rodriguez"
+    professor: "Mr. Sandip Dakal"
   },
   {
     id: 102,
-    name: "Room 102",
-    building: "Science Building",
+    name: "Tilicho",
+    building: "Nepal Block",
     floor: 1,
     capacity: 25,
     isOccupied: false,
@@ -28,8 +28,8 @@ const classroomsData = [
   },
   {
     id: 103,
-    name: "Room 103",
-    building: "Science Building",
+    name: "Nilgiri",
+    building: "Nepal Block",
     floor: 1,
     capacity: 25,
     isOccupied: true,
@@ -39,8 +39,8 @@ const classroomsData = [
   },
   {
     id: 201,
-    name: "Room 201",
-    building: "Science Building",
+    name: "Kingston",
+    building: "UK Block",
     floor: 2,
     capacity: 40,
     isOccupied: false,
@@ -50,8 +50,8 @@ const classroomsData = [
   },
   {
     id: 202,
-    name: "Room 202",
-    building: "Science Building",
+    name: "Stonehedge",
+    building: "UK Block",
     floor: 2,
     capacity: 40,
     isOccupied: false,
@@ -61,21 +61,21 @@ const classroomsData = [
   },
   {
     id: 301,
-    name: "Room 301",
-    building: "Arts Building",
-    floor: 3,
-    capacity: 35,
+    name: "Macchapuchre",
+    building: "Nepal Block",
+    floor: 2,
+    capacity: 90,
     isOccupied: true,
-    currentClass: "Modern Literature",
+    currentClass: "Advance Programming and Techniques",
     timeRemaining: 30,
-    professor: "Dr. Emily Thompson"
+    professor: "Mr. Rohan Katuwal"
   },
   {
     id: 302,
-    name: "Room 302",
-    building: "Arts Building",
-    floor: 3,
-    capacity: 30,
+    name: "Annapurna",
+    building: "Nepal Block",
+    floor: 2,
+    capacity: 90,
     isOccupied: false,
     currentClass: null,
     timeRemaining: null,
@@ -83,25 +83,25 @@ const classroomsData = [
   },
   {
     id: 401,
-    name: "Room 401",
-    building: "Engineering Building",
-    floor: 4,
+    name: "Gokyo",
+    building: "Nepal Block",
+    floor: 1,
     capacity: 50,
     isOccupied: true,
-    currentClass: "Advanced Robotics",
-    timeRemaining: 60,
-    professor: "Dr. Robert Chen"
-  },
-  {
-    id: 402,
-    name: "Room 402",
-    building: "Engineering Building",
-    floor: 4,
-    capacity: 45,
-    isOccupied: false,
     currentClass: null,
     timeRemaining: null,
     professor: null
+  },
+  {
+    id: 402,
+    name: "Phewa",
+    building: "Nepal Block",
+    floor: 4,
+    capacity: 45,
+    isOccupied: false,
+    currentClass: "Software Engineering",
+    timeRemaining: 45,
+    professor: "Sandip Gurung"
   },
 ];
 
@@ -109,21 +109,21 @@ const classroomsData = [
 const professorsData = [
   {
     id: 1,
-    name: "Dr. Maria Rodriguez",
-    department: "Biology",
+    name: "Mr. Rohan Katuwal",
+    department: "IT",
     status: "In Class",
-    location: "Science Building, Room 101",
+    location: "Nepal Block, Macchapuchre",
     officeHours: "2:00 PM - 4:00 PM",
-    officeLocation: "Science Building, Room 150"
+    officeLocation: "Nepal Block"
   },
   {
     id: 2,
-    name: "Dr. James Wilson",
-    department: "Physics",
-    status: "In Class",
-    location: "Science Building, Room 103",
+    name: "Mr. Sandip Adhikari",
+    department: "IT",
+    status: "idle",
+    location: "Nepal Block, Office",
     officeHours: "11:00 AM - 1:00 PM",
-    officeLocation: "Science Building, Room 155"
+    officeLocation: "Nepal block"
   },
   {
     id: 3,
