@@ -127,39 +127,39 @@ const professorsData = [
   },
   {
     id: 3,
-    name: "Dr. Emily Thompson",
-    department: "Literature",
+    name: "Mr. Sandip Dhakal",
+    department: "IT",
     status: "In Class",
-    location: "Arts Building, Room 301",
+    location: "Nepal Block, Phewa",
     officeHours: "10:00 AM - 12:00 PM",
-    officeLocation: "Arts Building, Room 320"
+    officeLocation: "Nepal Block"
   },
   {
     id: 4,
-    name: "Dr. Robert Chen",
-    department: "Engineering",
+    name: "Mr. Idu Nepali",
+    department: "IT",
     status: "In Class",
-    location: "Engineering Building, Room 401",
+    location: "Nepal Block, Room 401",
     officeHours: "3:00 PM - 5:00 PM",
-    officeLocation: "Engineering Building, Room 450"
+    officeLocation: "Nepal Block"
   },
   {
     id: 5,
-    name: "Dr. Sarah Johnson",
-    department: "Chemistry",
+    name: "Sandeep Gurung",
+    department: "IT",
     status: "In Office",
-    location: "Science Building, Room 160",
+    location: "Nepal Block",
     officeHours: "1:00 PM - 3:00 PM",
-    officeLocation: "Science Building, Room 160"
+    officeLocation: "Nepal Block"
   },
   {
     id: 6,
-    name: "Dr. Michael Brown",
-    department: "Computer Science",
+    name: "Mr. Achyut Parajuli",
+    department: "IT",
     status: "Available",
-    location: "Engineering Building, Room 455",
+    location: "Nepal Block,Office",
     officeHours: "9:00 AM - 11:00 AM",
-    officeLocation: "Engineering Building, Room 455"
+    officeLocation: "Nepal Block"
   },
 ];
 
